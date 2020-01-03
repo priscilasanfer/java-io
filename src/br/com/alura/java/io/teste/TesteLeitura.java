@@ -7,12 +7,14 @@ public class TesteLeitura {
     // Fluxo de entrada com um arquivo
 
         FileInputStream fis = new FileInputStream("lorem.txt");
-        InputStreamReader isr = new InputStreamReader(fis);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader(fis); // Transformar os bytes em caracteres
+        BufferedReader br = new BufferedReader(isr); // junta varios caracteres que estao dentro de uma linha e le linha por linha
         String linha = br.readLine();
-        System.out.println(linha);
 
+        while (linha != null) {
+            System.out.println(linha);
+            linha = br.readLine();
+        }
         br.close();
-
     }
 }
