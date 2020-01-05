@@ -26,7 +26,11 @@ FileWriter e PrintStream
     - O método System.lineSeparator() devolve os caracteres que representam uma nova linha
     - O método System.currentTimeMillis() devolve os milissegundos que passaram desde 1 de janeiro de 1970
 
-Usando java.util.Scanner
+Usando java.util.Scanner  
+- Leitura de arquivos com Scanner  
+- Uso de delimitador com Scanner  
+- Formatação de texto e também de números  
+- Definição de Localização para formatar o texto  
 
 Encoding e Charsets
 
