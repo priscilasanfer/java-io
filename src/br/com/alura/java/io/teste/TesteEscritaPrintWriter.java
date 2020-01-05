@@ -12,9 +12,9 @@ public class TesteEscritaPrintWriter {
 
 //        BufferedWriter bw = new BufferedWriter( new FileWriter("lorem4.txt"));
 
-        PrintWriter ps = new PrintWriter("lorem2.txt");
+        PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 
-        ps.println("Teste de escrita em arquivo");
+        ps.println("Teste de escrita em arquivo é ç");
         ps.println("Teste de escrita em arquivo teste");
         ps.println();
         ps.println();
